@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link href="final.css" rel="stylesheet">
+</head>
+<body id="container" onload="tabImage()">
+    <main>
+        <h1>Picture Gallery</h1>
+        <h2>Random things on my desk</h2>
+    
+        <div id="largePicture">
+            <p>Hover (or tab) over an image to display it here.</p>
+        </div>
+        <div id="pictures">
+            <img class="thumbs" src="img/coffee.png" alt="coffee in blue mug" onfocus="show(this)" onmouseover="show(this)" onblur="hide(this)" onmouseout="hide(this)">
+
+            <img class="thumbs" src="img/ink_concealer.png" alt="ink concealer with duck face" onmouseover="show(this)" onfocus="show(this)" onblur="hide(this)" onmouseout="hide(this)">
+           
+            <img class="thumbs" src="img/keyboard.png" alt="dark keyboard" onfocus="show(this)" onmouseover="show(this)" onblur="hide(this)" onmouseout="hide(this)">
+           
+            <img class="thumbs" src="img/phone_stand.png" alt="metallic phone stand" onfocus="show(this)" onblur="hide(this)" onmouseover="show(this)" onmouseout="hide(this)">
+          
+            <img class="thumbs" src="img/pill.png" alt="small blue and red pill" onfocus="show(this)" onblur="hide(this)" onmouseover="show(this)" onmouseout="hide(this)">
+           
+            <img class="thumbs" src="img/ricola.png" alt="box of cough drops" onfocus="show(this)" onmouseover="show(this)" onblur="hide(this)" onmouseout="hide(this)">
+        </div>
+
+    </main>
+    <script src="final.js"></script>
+</body>
+</html>
